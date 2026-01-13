@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="zh-Hant">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Explora un proyecto interactivo de fiesta de Halloween que muestra diseño responsivo, animaciones y técnicas de desarrollo web, y sumérgete en una atmósfera misteriosa.">
+        content="探索互動式萬聖節派對專案，展示響應式設計、動畫與網頁開發技巧，沉浸在萬聖節的神秘氛圍中。">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/logo.png">
 
     <!-- Page Title -->
-    <title>Sitio web de desplazamiento parallax</title>
+    <title>視差滾動網站</title>
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="style.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
     <!-- Open Graph meta tags for image sharing -->
-    <meta property="og:title" content="Sitio web de desplazamiento parallax">
+    <meta property="og:title" content="視差滾動網站">
     <meta property="og:description"
-        content="Explora un proyecto interactivo de fiesta de Halloween y sumérgete en una atmósfera misteriosa.">
+        content="探索互動式萬聖節派對專案，沉浸在萬聖節的神秘氛圍中。">
     <meta property="og:image" content="https://drive.google.com/uc?id=1GFbBHTi7w8weRVqLJ7bkofezEEGg4U30">
     <meta property="og:type" content=”website” />
     <!-- <meta property="og:url" content="https://parallax-website-by-vineet.netlify.app/"> -->
@@ -30,11 +30,11 @@
 <body>
     <!-- This is the header/ Nav Bar -->
     <header id="header">
-        <a href="#" class="logo">Parallax</a>
+        <a href="#" class="logo">視差</a>
         <ul>
-            <li><a href="#" class="active">Inicio</a></li>
-            <li><a href="#sec">Acerca de</a></li>
-            <li><a href="#footer">Contacto</a></li>
+            <li><a href="#" class="active">首頁</a></li>
+            <li><a href="#sec">關於</a></li>
+            <li><a href="#footer">聯絡</a></li>
         </ul>
     </header>
 
@@ -44,11 +44,11 @@
         <img src="images/land/sun.png" id="sun">
         <img src="images/land/mountains.png" id="mountains" class="wallpaper">
         <img src="images/land/cloud.png" id="cloud">
-        <h2 id="text"><span>"Abraza la emoción de"</span><br>la aventura</h2>
+        <h2 id="text"><span>"擁抱刺激的"</span><br>冒險</h2>
         <img src="images/land/forest.png" id="forest">
         <img src="images/land/bird1.png" id="bird1">
         <img src="images/land/bird2.png" id="bird2">
-        <a href="#sec" id="explore">Explorar</a>
+        <a href="#sec" id="explore">探索</a>
         <img src="images/land/rocks.png" id="rocks">
         <img src="images/land/splash.png" id="splash">
         <img src="images/land/water.png" id="water">
@@ -68,58 +68,48 @@
         <img src="images/sea/sea8.png" id="sea8" class="undersea">
 
         <!-- Text Content here -->
-        <h2>Efecto de desplazamiento parallax</h2>
-        <div id="name">Autor: Vineet Kumar</div>
+        <h2>視差滾動效果</h2>
+        <div id="name">作者：Vineet Kumar</div>
 
         <br>
 
         <div class="glass">
-            <h3>¿Qué es el desplazamiento parallax?</h3>
+            <h3>什麼是視差滾動？</h3>
             <p>
-                El desplazamiento parallax es una técnica de diseño web que hace que el fondo del sitio se mueva más
-                despacio que el primer plano. Cuando los visitantes se desplazan hacia abajo, se crea un efecto 3D que
-                aporta profundidad y una experiencia de navegación más inmersiva. El principio del parallax se basa en
-                una ilusión óptica: el ojo humano percibe los objetos cercanos como más grandes que los lejanos, por lo
-                que los objetos lejanos parecen moverse más lentamente. Esta ilusión se ha aplicado durante años en
-                distintos medios para lograr un efecto más realista. El parallax apareció primero en la animación
-                tradicional, como en Disney “Blancanieves y los siete enanitos”, y en videojuegos como “Super Mario”.
-                Con el avance de CSS y HTML, el parallax evolucionó hasta convertirse en la técnica de diseño web actual.
+                視差滾動是一種網頁設計技術，讓網站背景以比前景更慢的速度移動。當訪客向下捲動時，會產生 3D
+                效果，增添景深並帶來更沉浸的瀏覽體驗。視差的原理來自視覺錯覺：人眼會把近處物體看得比遠處
+                更大，因此我們會覺得遠處的物體移動得更慢。這種錯覺長期被應用在不同媒介中，營造更真實的效果。
+                視差最早出現在傳統動畫中，例如迪士尼《白雪公主與七個小矮人》，以及《超級瑪利歐》等電玩。
+                隨著 CSS 與 HTML 的進步，視差效果才逐步演變為如今的網頁設計技術。
                 <br><br>
-                Una de las primeras implementaciones de parallax en el navegador fue compartida por el desarrollador web
-                Glutnix en 2007 mediante una entrada de blog con ejemplos y demostraciones en JavaScript y CSS 2, que
-                funcionaban en navegadores como Internet Explorer 6. Sin embargo, no fue hasta 2011, con la llegada de
-                HTML5 y CSS3, cuando esta técnica ganó popularidad entre los diseñadores web. Sus defensores sostienen
-                que es una forma sencilla de abrazar la fluidez de la web, y que los fondos parallax pueden atraer mejor
-                a los usuarios y mejorar la experiencia general del sitio. Aun así, un estudio de la Universidad de
-                Purdue en 2013 señaló: «...aunque el desplazamiento parallax mejora algunos aspectos de la experiencia de
-                usuario, no necesariamente mejora la experiencia total».
+                瀏覽器中最早的視差滾動實作之一，是由網頁開發者 Glutnix 在 2007 年以部落格文章分享，內容包含
+                JavaScript 與 CSS 2 的範例與示範，支援當時的 Internet Explorer 6 等瀏覽器。然而直到 2011 年
+                HTML5 與 CSS3 推出後，這項技術才真正受到網頁設計師的青睞。支持者認為，這是擁抱網頁流動性的一種
+                簡單方式，視差背景也能更好地吸引使用者並提升網站整體體驗。不過普渡大學於 2013 年的研究指出：
+                「……雖然視差滾動改善了使用者體驗的某些面向，但未必能提升整體使用體驗。」
             </p>
         </div>
 
         <br>
 
         <div class="glass">
-            <h3>¿Por qué usar imágenes parallax?</h3>
+            <h3>為什麼要使用視差圖像？</h3>
             <ul>
-                <p>Los diseñadores suelen probar imágenes parallax por dos razones principales:</p>
+                <p>設計師嘗試視差圖像的主要原因有兩個：</p>
                 <li>
-                    <h4>Ayudan a contar historias</h4>
+                    <h4>有助於講故事</h4>
                     <p>
-                        Las imágenes parallax son ideales para contar historias. El buen diseño se centra en la
-                        comunicación: cuando diseñamos un sitio web queremos interactuar con los visitantes y contar una
-                        historia atractiva sobre un producto, un servicio o una marca. El desplazamiento parallax puede
-                        sumergir a los visitantes en una experiencia en línea única e incluso permite crear un sitio de
-                        una sola página para que lean toda la historia sin cambiar de sección.
+                        視差圖像非常適合用來說故事。優秀的設計重點在於溝通——當我們設計網站時，希望能與訪客互動，
+                        並講述關於產品、服務或品牌的精彩故事。視差滾動能讓訪客沉浸在獨特的線上體驗中，
+                        甚至可以打造單頁網站，讓訪客不必切換多個頁面就能讀完完整的品牌故事。
                     </p>
                 </li>
                 <li>
-                    <h4>Mejoran la participación del usuario</h4>
+                    <h4>有助於提升使用者參與度</h4>
                     <p>
-                        Las imágenes parallax incrementan la participación del usuario. Reducir la tasa de rebote es uno
-                        de los objetivos del diseño web; la tasa de rebote mide el porcentaje de visitantes que solo ven
-                        una página y luego regresan o cierran la pestaña. Un rebote alto puede afectar el posicionamiento
-                        en buscadores, por lo que cualquier acción para reducirlo vale la pena. Las páginas parallax bien
-                        elaboradas brindan una experiencia más dinámica y motivan a los usuarios a permanecer en el sitio.
+                        視差圖像能提升使用者參與度。降低網站跳出率是網頁設計必須關注的目標之一。跳出率指的是訪客只看一個
+                        頁面就按「返回」或關閉分頁的比例。高跳出率會影響搜尋排名，因此任何能降低跳出率的做法都值得嘗試。
+                        精心打造的視差頁面能提供更具動態感的體驗，讓使用者更願意停留在頁面上。
                     </p>
                 </li>
             </ul>
@@ -128,28 +118,27 @@
         <br>
 
         <div class="glass">
-            <h3>Si quieres añadir desplazamiento parallax a tu sitio, considera estas recomendaciones.</h3>
+            <h3>如果你想在網站中加入視差滾動效果，請考慮以下建議。</h3>
             <ul>
                 <li aria-level="1">
-                    <h4>Úsalo con criterio</h4>
+                    <h4>有選擇地使用</h4>
                     <p>
-                        En lugar de aplicarlo en todas las páginas, el parallax funciona mejor en elementos específicos.
-                        Úsalo en el encabezado o en la portada para reforzar el diseño sin distraer la atención del usuario.
+                        相較於在所有頁面隨時使用，視差滾動在特定元素上更能發揮效果。你可以將它用在標題或首頁，
+                        讓視差效果強化網站設計，而不是分散使用者注意力。
                     </p>
                 </li>
                 <li aria-level="1">
-                    <h4>Comprime las imágenes</h4>
+                    <h4>圖片壓縮</h4>
                     <p>
-                        El parallax usa varios archivos multimedia y formas CSS para crear profundidad. No conviene que
-                        imágenes demasiado pesadas ralenticen la carga y afecten el rendimiento y la experiencia del sitio.
+                        視差滾動會使用多種媒體檔案與 CSS 形狀來營造景深，你不希望因為圖片過大而拖慢載入速度，
+                        影響網站效能與使用體驗。
                     </p>
                 </li>
                 <li aria-level="1">
-                    <h4>Aprovecha el color</h4>
+                    <h4>善用色彩</h4>
                     <p>
-                        El parallax no solo trata sobre imágenes de fondo y primer plano; el color también importa. Usa
-                        tonos menos saturados en el fondo y colores más vivos en el primer plano para reforzar la sensación
-                        de profundidad.
+                        視差滾動不只關乎前景與背景的圖像，色彩也是關鍵。你可以在背景使用較低飽和度的色調，
+                        在前景使用更鮮明的色彩，以營造更強烈的深度感。
                     </p>
                 </li>
             </ul>
@@ -176,7 +165,7 @@
 
     <!-- Code for the footer -->
     <div class="footer" id="footer">
-        Sígueme:
+        歡迎追蹤我：
         <div class="wrapper">
             <div class="social-media">
                 <div class="icon">
@@ -200,10 +189,10 @@
                 <div class="icon">
                     <i class="fa-solid fa-link"></i>
                 </div>
-                <span>Portafolio</span>
+                <span>作品集</span>
             </div>
         </div>
-        <span>Sitio creado por Vineet Kumar ❤️<br>Estudiante de último año de Ingeniería Informática en SSN College of Engineering</span>
+        <span>網站由 Vineet Kumar 製作 ❤️<br>SSN 工程學院資訊工程系四年級</span>
     </div>
 
     <!-- The button to scroll back to top -->
